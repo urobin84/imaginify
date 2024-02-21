@@ -113,7 +113,7 @@ export async function getAllImages({
       secure: true,
     });
 
-    let expression = "folder=MQR_Imaginify";
+    let expression = "folder=imaginify";
 
     if (searchQuery) {
       expression += ` AND ${searchQuery}`;

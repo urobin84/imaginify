@@ -53,7 +53,7 @@ const MediaUploader = ({
 
   return (
     <CldUploadWidget
-      uploadPreset="MQR_Imaginify"
+      uploadPreset="mqr_imaginify"
       options={{
         multiple: false,
         resourceType: "image",
